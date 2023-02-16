@@ -15,14 +15,17 @@ def main():
 
     print(review)
     review.collect_words()
-    print(review.review_text)
-    # review.collect_words()
-    # review.remove_useless()
-    # review.simplify()
+    print(review.words)
+    
+    # review.remove_punctuation_stopwords()
+    
+    # lemmatization converts the words to their standard dictionary form
+    # review.lemmatization()
+    
     # review.word_count()
-
-    #word_analysis.
-
+    
+    # review.generate_wordcloud()
+    
 
 if __name__ == "__main__":
     main()
