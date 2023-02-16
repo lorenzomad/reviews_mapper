@@ -2,3 +2,4 @@ nltk
 pytest
 numpy
 matplotlib
+pylint
