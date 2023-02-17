@@ -7,6 +7,8 @@ from nltk.corpus import stopwords
 
 from nltk.stem import LancasterStemmer
 
+import stylecloud
+
 
 class Review():
     def __init__(self, review_text, rating, region, date ):
@@ -32,9 +34,12 @@ class Review():
         for word in self.words:
             self.lemmatized_words.append(lancaster.stem(word))
             
-    # def generate_wordclous(self):
-    #     """generates an image of the wordcloud"""
-    #     stylecloud.gen_stylecloud(self.review_text)
+    def generate_wordcloud(self):
+        """generates an image of the wordcloud"""
+        stylecloud.gen_stylecloud(
+            text = self.review_text,
+            icon_name = 'fas fa-flag'
+        )
     
         
 

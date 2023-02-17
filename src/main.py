@@ -24,7 +24,7 @@ def main():
     
     # review.word_count()
     
-    # review.generate_wordcloud()
+    review.generate_wordcloud()
     
 
 if __name__ == "__main__":

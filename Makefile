@@ -1,6 +1,6 @@
 setup:
-	pip -m venv venv
-	soure ./venv/bin/activate
+	python -m venv venv
+	source ./venv/bin/activate
 
 install:
 	pip install --upgrade pip
