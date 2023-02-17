@@ -11,4 +11,4 @@ test:
 	pytest
 
 lint:
-	pylint
+	pylint src
