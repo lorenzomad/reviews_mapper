@@ -15,12 +15,11 @@ def main():
 
     print(review)
     review.collect_words()
-    print(review.words)
     
     # review.remove_punctuation_stopwords()
     
     # lemmatization converts the words to their standard dictionary form
-    # review.lemmatization()
+    review.lemmatization()
     
     # review.word_count()
     
